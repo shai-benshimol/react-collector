@@ -1,10 +1,11 @@
 {
   "name": "react-collector",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Promise collector for the browser and node.js",
-  "main": "ReactCollector.tsx",
+  "main": "dist/ReactCollector.js",
+  "files": ["dist"],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && npm publish"
   },
   "repository": {
     "type": "git",
