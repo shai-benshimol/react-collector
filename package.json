@@ -1,0 +1,49 @@
+{
+  "name": "react-collector",
+  "version": "1.0.0",
+  "description": "Promise collector for the browser and node.js",
+  "main": "ReactCollector.tsx",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shai-benshimol/react-collector.git"
+  },
+  "author": "Shai Ben Shimol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shai-benshimol/react-collector/issues"
+  },
+  "homepage": "https://github.com/shai-benshimol/react-collector#readme",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "typescript": "~3.7.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
