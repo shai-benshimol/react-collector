@@ -1,9 +1,9 @@
 {
   "name": "react-collector",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Promise collector for the browser and node.js",
   "main": "dist/ReactCollector.js",
-  "files": ["dist"],
+  "files": ["dist","README.md"],
   "scripts": {
     "build": "tsc && npm publish"
   },
@@ -46,5 +46,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "keywords": [
+    "react",
+    "react caching",
+    "reactjs",
+    "hooks",
+    "storage",
+    "cookies",
+    "session",
+    "promise",
+    "typescript"
+  ]
 }
