@@ -12,6 +12,7 @@ React Collector help you to declere and manage a browser's storage.
 - [Actions](#actions)
 - [Usage](#usage)
 - [Full Example](#full-example)
+- [Todo](#todo)
 
 
 ## Installation
@@ -224,3 +225,6 @@ const SomeChild: React.SFC<{}> = () => {
 export default SomeChild;
 
 ```
+## Todo
+- Collector for indexedDB
+- Collector for Web SQL
